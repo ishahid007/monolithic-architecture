@@ -1,0 +1,4 @@
+Monolithic Architecture, An Assesement Test Management System in Core php.
+
+The Simple Online University Assesement Test Management System is a PHP project that uses an SQLite database as its storage. It provides a convenient online platform for college or university enrollees to take their entrance exams and other required tests for the course they wish to enroll in. While the project's functionalities are straightforward, they are useful and can be expanded to create a more comprehensive enrollment system. The system's user interface is visually appealing and easy to use.
+

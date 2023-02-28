@@ -1,0 +1,15 @@
+version: '4'
+services:
+  db:
+    image: nouchka/sqlite3:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/root/db/
+  www:
+    image: php:apache
+    volumes:
+      - "./:/var/www/html" # sync the current dir on local machine to the dir of container
+    ports:
+      - 80:80
+      - 443:443 # for future ssl traffic
